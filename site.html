@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <a href="pngs/logo.png"><img src="pngs/logo.png" alt="logo" width="100"></a>
+        <form name="search" action="#" method="get">
+            <input type="text" name="q" placeholder="Поиск по сайту"><button type="submit">Go</button>
+        </form>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <header></header>
+            <nav></nav>
+            <div id="heading"></div>
+            <aside></aside>
+            <selection></selection>
+        </div>
+
+        <div>
+            <ul class="top-menu">
+                <li  class="active">Главная страница</li>
+                <li><a href="/Discuss/">Обсуждения</a></li>
+                <li><a href="/gallery/">Галерея</a></li>
+                <li><a href="/help/">Помощь</a></li>
+                <li><a href="/login/">Войти</a></li>
+            </ul>
+        </div>
+        <div id="heading">
+            <h1>Главная страница</h1>
+        </div>
+        <aside>
+            <nav>
+                <ul class="aside-menu">
+                    <h3>Навигация</h3>
+                    <li><a href="#vilos">Вилос</a></li>
+                    <li><a href="#syns">Синопсис</a></li>
+                    <li><a href="#hist">История</a></li>
+                    <li><a href="#gall">Галерея</a></li>
+                    <li><a href="#au">Авторство</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="links">
+                    <h3>Полезые ссылки</h3>
+                    <li><a href="http://vilous.net/wiki/Vilous_Wiki">Официальная Wiki</a></li>
+                    <li><a href="https://vilous.net/ep4-the-twelve-plainswalkers/page-151/">Официальный вебсайт</a></li>
+                    <li><a href="https://www.artstation.com/mick-ono">Devianart Mick Ono</a></li>
+                    <li><a href="https://twitter.com/Vilous_Official">Vilous Twitter</a></li>
+                </ul>
+            </nav>
+            <h2>"merp meme"</h2>
+            <p id="icon"><img onclick="alert('MERP MERP MERP MERP MERP MERP MERP MERP MERP')" src="pngs/merp.gif" width="230"></p>
+            <p id="info" style="display: none; font-style: italic;" >
+                Один из популярнейших и узнаваемых мемов 
+                связанных с этим миром.
+            </p>
+            <script>
+                var e = document.getElementById('icon');
+                e.onmouseover = function () {
+                    document.getElementById('info').style.display = 'block';
+                }
+                e.onmouseout = function () {
+                    document.getElementById('info').style.display = 'none';
+                }
+            </script>
+        </aside>
+        <footer></footer>
+        <main>
+            <div class="content">
+
+                <p><a name="vilos"></a></p>
+                <h1>Вилос</h1>
+                <hr />
+                <p>
+                    Вилос (ビ ロ ウ ス birousu) - это название вымышленного
+                    Солнца, а также название научно-фантастического мира и вселенной, созданных
+                    двумя японскими художниками Мик Оно и Кики CR.
+                </p>
+                <p>
+                    В каноне Старого «Вилоса» было названием главной планеты. Однако в канонических
+                    знаниях «Вилоса» новой эры - это название неподвижной звезды и главной Солнечной
+                    системы; главная планета, на которой обитают существа, теперь называется «Планета Тал».
+                </p>
+                <figure>
+                    <h2>Лого вселенной</h2>
+                    <img id="icon1" src="pngs/Sunlogo.png" width="400">
+                </figure>
+                <p id="info1" style="display: none; font-style: italic;">
+                    Логотип мира "Vilous" своим внешним видом имитирует своеобразную талаксийскую флору.
+                </p>
+                <script>
+                    var e = document.getElementById('icon1');
+                    e.onmouseover = function () {
+                        document.getElementById('info1').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info1').style.display = 'none';
+                    }
+                </script>
+                <p><a name="syns"></a></p>
+                <h1>Синопсис</h1>
+                <hr />
+                <p>
+                    Он населен чудесными существами и странной флорой,
+                    а разумные виды различного происхождения взаимодействуют друг с другом.
+                </p>
+                <p>
+                    Основные группы организмов Вилоса делятся на две большие
+                    группы: Элтус и Талаксианцы. Самый известный вид из вселенной
+                    Вилоса, Сергалы, принадлежит к группе расы Элтус. Общий взгляд
+                    на сцену и биологию системы Вилос показывает, что планета Тал
+                    значительно отличается от Земли. Странные растения, не содержащие
+                    хлорофилла, занимают большую часть планеты, демонстрируя свои
+                    необычные характеристики в более красноватых и пурпурных тонах.
+                    На Тале обитают животные, которые также очень отличаются от
+                    животных Земли; хотя они могут иметь одно и то же имя, они совсем
+                    не похожи на своих первоначальных однофамильцев, за исключением
+                    некоторых черт или атрибутов.
+                </p>
+
+                <p><a name="hist"></a></p>
+                <h1>История</h1>
+                <hr />
+                <p>
+                    Давным-давно на планете жили люди и существа, называемые
+                    Элтус. Однажды экологическая катастрофа достигла смертельных
+                    масштабов, и «имитирующие живые существа», выдуманные существа,
+                    называемые таликсианцами, пришли на всю планету в качестве новой
+                    экосистемы, чтобы сохранить жизнь на планете. Океаны и многие
+                    существа вида Элтус резко сократились. Тела людей Элтуса
+                    изменились и стали напоминать животных и были разделены из единой
+                    человеческой формы на три части: Сергалы, Агуднеры и Невреа.
+                </p>
+                <p>
+                    Эоны спустя люди Эльтус и их соответствующие расы все еще
+                    сохраняют чувство признания себя "людьми", хотя в целом они
+                    не осознают свою изначальную человеческую форму и свою изначальную
+                    культуру. Планета Тал полностью превратилась в инопланетную
+                    пустыню, покрытую Таликсианскими Биомами. Люди ежедневно пытаются
+                    спасти Эльтусские биомы, чтобы возродить свою изначальную среду
+                    обитания, выживая в суровой и странной таликсийской среде.
+                </p>
+                <p>
+                    Рождение необычного "человека", известного как Рейн
+                    Силвес, является поворотным моментом, и весь Тал обретает
+                    новую историю, которая записана как Календарь
+                    дождя. На протяжении столетней истории в рамках Календаря
+                    Рейн люди Эльтуса претерпевают бурные изменения из-за
+                    Мировой войны, которую принесла Генерал Рейн. Основные оригинальные
+                    рассказы составлены в виде сборника, чтобы показать мировоззрение
+                    Вилуса и историю бок о бок.
+                </p>
+
+                <figure>
+                    <h2>Генерал Рейн Сильвес</h2>
+                    <img id="icon2" src="pngs/rain.jpg" width="400"></p>
+                </figure>
+                <p id="info2" style="display: none; font-style: italic;">
+                    Рейн - один из самых узнаваемых персонажей вселенной. Будучи
+                    предводителем клана Шигу, она была жестоким правителем, проявляющая
+                    искреннюю ненависть к своим южным собратьям.
+                </p>
+                <script>
+                    var e = document.getElementById('icon2');
+                    e.onmouseover = function () {
+                        document.getElementById('info2').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info2').style.display = 'none';
+                    }
+                </script>
+
+                <p><a name="gall"></a></p>
+                <h1>Галерея</h1>
+                <hr />
+                <p>
+                    Все произведения, которые можно увидеть на этой Wiki и
+                    Vilous.net, могут включать фанатских персонажей. В этой Wiki
+                    мы показываем произведения искусства, которые можно назвать
+                    соответствующими канону. Однако имейте в виду, что фанатские
+                    персонажи сами по себе не являются официальными персонажами
+                    оригинальных историй.
+                </p>
+                <figure>
+                    <h2>Оживленная улица "Золотого кольца"</h2>
+                    <img id="icon3" src="pngs/GR.png" width="400px"></p>
+                </figure>
+                <p id="info3" style="display: none; font-style: italic;">
+                    Золотое кольцо - самый крупный город-государство на Тале, возведенный
+                    вокруг огромного соляного моря. Будучи пристанищем южан, он
+                    является так же и самым научно продвинутым с точки зрения науки и
+                    культуры.
+                </p>
+                <script>
+                    var e = document.getElementById('icon3');
+                    e.onmouseover = function () {
+                        document.getElementById('info3').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info3').style.display = 'none';
+                    }
+                </script>
+                <p></p>
+                <figure>
+                    <h2>Генерал Рейн Сильвес</h2>
+                    <img id="icon4" src="pngs/seaweed.png" width="400px"></p>
+                </figure>
+                <p id="info4" style="display: none; font-style: italic;">
+                    Жители Золотого кольца собирают растительность, растущюю на побережье
+                    моря. Зачастую их используют в пищу в качестве добавки к супам, рыбе или
+                    ингридиента для салата.
+                </p>
+                <script>
+                    var e = document.getElementById('icon4');
+                    e.onmouseover = function () {
+                        document.getElementById('info4').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info4').style.display = 'none';
+                    }
+                </script>
+                <p></p>
+                <figure>
+                    <h2>Двое солдат отдыхают в тени</h2>
+                    <img id="icon5" src="pngs/solders.png" width="400px"></p>
+                </figure>
+                <p id="info5" style="display: none; font-style: italic;">
+                    Талаксийские биомы не безопасны из-за ядовидых миазмов, которые они распространяют.
+                    Для безопасного нахождения там расам Элтуса необходимо носить
+                    специальные респираторные маски, как у этих солдат.
+                </p>
+                <script>
+                    var e = document.getElementById('icon5');
+                    e.onmouseover = function () {
+                        document.getElementById('info5').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info5').style.display = 'none';
+                    }
+                </script>
+                <p></p>
+                <figure>
+                    <h2>Элтусы исследуют заброшенную лабораторию</h2>
+                    <img id="icon6" src="pngs/Talyxian_Biomes.png" width="400px"></p>
+                </figure>
+                <p id="info6" style="display: none; font-style: italic;">
+                    Талаксийские "растения" крайне негативно влияют на флору Элтусов, поэтому
+                    агундер несет его в специальной стеклянной капсуле.
+                </p>
+                <script>
+                    var e = document.getElementById('icon6');
+                    e.onmouseover = function () {
+                        document.getElementById('info6').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info6').style.display = 'none';
+                    }
+                </script>
+                <p></p>
+                <figure>
+                    <h2>Поход в талаксийский биом</h2>
+                    <img id="icon7" src="pngs/Thekan.png" width="400px"></p>
+                </figure>
+                <p id="info7" style="display: none; font-style: italic;">
+                    По бокам можно заметить водоем с красноватой водой, называемой "Кровавой рекой",
+                    а недалеко от отряда - странного вида талаксийские растения, обычная флора для Тала.
+
+                </p>
+                <script>
+                    var e = document.getElementById('icon7');
+                    e.onmouseover = function () {
+                        document.getElementById('info7').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info7').style.display = 'none';
+                    }
+                </script>
+                <p></p>
+                <figure>
+                    <h2>Сергал-охотник у пойманной добычи</h2>
+                    <img id="icon8" src="pngs/hunt.png" width="400px"></p>
+                </figure>
+                <p id="info8" style="display: none; font-style: italic;">
+                    Убитый зверь - талаксийская дикая свинья.
+                </p>
+                <script>
+                    var e = document.getElementById('icon8');
+                    e.onmouseover = function () {
+                        document.getElementById('info8').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info8').style.display = 'none';
+                    }
+                </script>
+                <p></p>
+                <figure>
+                    <h2>Житель современного Золотого Кольца в закусочной "ZUvo"</h2>
+                    <img id="icon9" src="pngs/Zuvo.png" width="400px"></p>
+                </figure>
+                <p id="info9" style="display: none; font-style: italic;">
+                    Zuvo Shops - огромная сеть закусочных в Золотом Кольце, насчитывающая порядка
+                    800 ресторанов от мала до велика. В переводе с местного языка Zuvo значит "гамбургер", но подразумевает под собой
+                    всю еду, похожую на сендвичи.
+
+                </p>
+                <script>
+                    var e = document.getElementById('icon9');
+                    e.onmouseover = function () {
+                        document.getElementById('info9').style.display = 'block';
+                    }
+                    e.onmouseout = function () {
+                        document.getElementById('info9').style.display = 'none';
+                    }
+                </script>
+                <p><a name="au"></a></p>
+                <h1>Авторство</h1>
+                <hr />
+                <p>
+                    Все арты за авторством Mick Ono, все персонажи принадлежат их авторам. Для более детального ознакомления рекомендуется посетить официальную вики Vilous (ссылки прикреплены вверху страницы).
+                </p>
+                </nav>
+            </div>
+        </main>
+    </body>
+</html>
